@@ -16,6 +16,5 @@ jobs:
         version: '*'
     - shell: bash
       run: |
-        xcbeautify --version
         set -o pipefail
-        swift test
+        xcodebuild test | xcbeautify
