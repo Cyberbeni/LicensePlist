@@ -18,4 +18,4 @@ jobs:
       run: |
         xcbeautify --version
         set -o pipefail
-        swift test | xcbeautify
+        swift test
