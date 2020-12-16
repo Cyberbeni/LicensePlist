@@ -1,4 +1,4 @@
-// swift-tools-version:4.1
+// swift-tools-version:5.0
 
 import PackageDescription
 
@@ -12,13 +12,13 @@ let package = Package(
         .package(url: "https://github.com/apple/swift-argument-parser.git",
                  from: "0.3.1"),
         .package(url: "https://github.com/ishkawa/APIKit.git",
-                 from: "4.0.0"),
+                 from: "5.1.0"),
         .package(url: "https://github.com/IBM-Swift/HeliumLogger.git",
-                 from: "1.8.0"),
+                 from: "1.9.0"),
         .package(url: "https://github.com/behrang/YamlSwift.git",
-                 from: "3.4.0"),
+                 from: "3.4.4"),
         .package(url: "https://github.com/IBM-Swift/swift-html-entities.git",
-                 from: "3.0.0")
+                 from: "3.0.14")
     ],
     targets: [
         .target(
